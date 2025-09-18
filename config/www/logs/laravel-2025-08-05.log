@@ -1,0 +1,36 @@
+[2025-08-05 10:51:49] local.DEBUG: SQLite Database Path: /app/www/database/app.sqlite  
+[2025-08-05 10:51:49] local.DEBUG: Process Apps dispatched  
+[2025-08-05 11:00:09] local.DEBUG: SQLite Database Path: /app/www/database/app.sqlite  
+[2025-08-05 11:00:09] local.DEBUG: Process Apps dispatched  
+[2025-08-05 13:31:51] local.DEBUG: SQLite Database Path: /app/www/database/app.sqlite  
+[2025-08-05 13:31:51] local.DEBUG: Process Apps dispatched  
+[2025-08-05 13:54:29] local.DEBUG: SQLite Database Path: /app/www/database/app.sqlite  
+[2025-08-05 13:54:29] local.DEBUG: Process Apps dispatched  
+[2025-08-05 13:54:32] local.DEBUG: SQLite Database Path: /app/www/database/app.sqlite  
+[2025-08-05 13:54:32] local.DEBUG: Process Apps dispatched  
+[2025-08-05 13:55:39] local.DEBUG: SQLite Database Path: /app/www/database/app.sqlite  
+[2025-08-05 13:55:39] local.DEBUG: Process Apps dispatched  
+[2025-08-05 13:55:39] local.DEBUG: Get app triggered for: 19132c3f80c33d38bbe4c51828f05b081e9f66cd  
+[2025-08-05 13:55:39] local.DEBUG: Download triggered for stdClass Object
+(
+    [appid] => 19132c3f80c33d38bbe4c51828f05b081e9f66cd
+    [name] => Zabbix
+    [website] => https://www.zabbix.com
+    [license] => GNU General Public License v2.0 only
+    [description] => Zabbix is a mature and effortless enterprise-class open source monitoring solution for network monitoring and application monitoring of millions of metrics.
+    [enhanced] => 
+    [tile_background] => dark
+    [icon] => zabbix.svg
+    [sha] => 7a8547155c06f03d12b97b1c98f6264631aeb2eb
+    [class] => App\SupportedApps\Zabbix\Zabbix
+)
+  
+[2025-08-05 13:55:44] local.DEBUG: SQLite Database Path: /app/www/database/app.sqlite  
+[2025-08-05 13:55:47] local.DEBUG: SQLite Database Path: /app/www/database/app.sqlite  
+[2025-08-05 13:55:53] local.DEBUG: SQLite Database Path: /app/www/database/app.sqlite  
+[2025-08-05 13:55:53] local.DEBUG: SQLite Database Path: /app/www/database/app.sqlite  
+[2025-08-05 13:56:09] local.DEBUG: SQLite Database Path: /app/www/database/app.sqlite  
+[2025-08-05 13:56:11] local.DEBUG: SQLite Database Path: /app/www/database/app.sqlite  
+[2025-08-05 13:56:12] local.DEBUG: SQLite Database Path: /app/www/database/app.sqlite  
+[2025-08-05 15:09:01] local.DEBUG: SQLite Database Path: /app/www/database/app.sqlite  
+[2025-08-05 15:18:02] local.DEBUG: SQLite Database Path: /app/www/database/app.sqlite  
