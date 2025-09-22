@@ -1,6 +1,6 @@
-# 🖥️ Projet – Heimdall : Portail centralisé des applications (Collectivité)
+# Projet – Heimdall : Portail centralisé des applications (Collectivité)
 
-## 🎯 Contexte
+##  Contexte
 Dans une collectivité locale de taille moyenne, la Direction des Systèmes d’Information (DSI) administre une dizaine d’applications critiques :
 
 - **GLPI** : gestion du support IT  
@@ -10,13 +10,13 @@ Dans une collectivité locale de taille moyenne, la Direction des Systèmes d’
 - **Portainer** et **phpMyAdmin** : administration technique  
 
 Chaque outil est déployé via Docker sur des serveurs internes. Problème identifié :  
-➡️ URLs multiples, ports différents, perte de temps, erreurs fréquentes et complexité pour les nouveaux arrivants.
+➡ URLs multiples, ports différents, perte de temps, erreurs fréquentes et complexité pour les nouveaux arrivants.
 
-## 🛠️ Objectif
+##  Objectif
 Mettre en place un **portail centralisé simple et intuitif**, accessible via un navigateur, permettant de retrouver tous les outils en un clic.  
-👉 Solution choisie : **Heimdall**, une application libre de gestion de raccourcis et tableau de bord.
+Solution choisie : **Heimdall**, une application libre de gestion de raccourcis et tableau de bord.
 
-## ⚙️ Étapes de mise en place
+##  Étapes de mise en place
 
 ### 1. Création du projet
 - Installation de Docker et Docker Compose sur une **VM Debian 12**  
@@ -42,7 +42,7 @@ services:
       - "8443:443"
     restart: unless-stopped
 ```
-➡️ Les volumes `config/` et `ssl/` garantissent la persistance et la sécurisation via HTTPS.
+➡Les volumes `config/` et `ssl/` garantissent la persistance et la sécurisation via HTTPS.
 
 ### 3. Configuration & personnalisation
 - Premier lancement : `docker compose up -d`  
@@ -66,18 +66,16 @@ tar -czf /backups/heimdall_config_${STAMP}.tar.gz -C ./config .
 find /backups -type f -name "heimdall_config_*.tar.gz" -mtime +7 -delete
 ```
 
-## ✅ Résultats obtenus
+##  Résultats obtenus
 - **Centralisation** : un portail unique regroupant tous les outils critiques  
 - **Gain de temps** : plus besoin de retenir URLs/ports  
 - **Adoption** : onboarding facilité pour les nouveaux techniciens  
 - **Robustesse** : configuration persistante et sécurisée via volumes et SSL  
 
-## 📌 Bilan personnel
+## Bilan personnel
 Ce projet m’a permis de :  
 - Découvrir et déployer **Heimdall** avec Docker  
 - Pratiquer la **sécurisation d’accès web** (SSL, firewall, reverse proxy)  
 - Mettre en avant la **valeur métier** : simplifier l’expérience des utilisateurs IT  
 - Produire un projet **clé en main et réutilisable** pour d’autres contextes  
 
----
-✍️ Auteur : **Steve Avisse**
